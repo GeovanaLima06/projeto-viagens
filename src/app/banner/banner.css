@@ -1,0 +1,59 @@
+.banner{
+    background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 702.13px;
+    width: 1800px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+
+
+.texto-banner{
+    font-size: 69.73px;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-banner-2{
+    font-size: 14.65px;
+    font-weight: 300;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.opcoes-pesquisa{
+    background-color: white;
+    height: 80px;
+    width: 850px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+    border-radius: 20px;
+
+
+}
+
+.quadrado{
+    border: 1px solid lightgrey;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    
+   
+}
