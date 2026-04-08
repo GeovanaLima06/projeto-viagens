@@ -1,0 +1,53 @@
+<section class="destinação">
+    <div class="trending">
+        <p class="titulo-trending">Trending destinations</p>
+        <p class="tituloo-trending">See All</p>
+    </div>
+
+    <div class="trendings">
+        @for (item of emalta; track item.localidade){
+        <div class="trend">
+            <img src="./assets/trending-topics/{{item.imagem}}" alt="" srcset="">
+            <p class="titulo-trend">{{item.localidade}}</p>
+            <p class="texto-trend">{{item.tour}}</p>
+        </div>
+        }
+
+        <!-- <div class="trend">
+                    <img src="/assets/trending-destinations/image (1).png" alt="">
+                    <p class="titulo-trend">Singapore</p>
+                    <p class="texto-trend">300+ Tours</p>
+                </div>
+                <div class="trend">
+                    <img src="./assets/trending-destinations/image (2).png" alt="">
+                    <p class="titulo-trend">Roma</p>
+                    <p class="texto-trend">400+ Tours</p>
+                </div>
+                <div class="trend">
+                    <img src="./assets/trending-destinations/image (3).png" alt="">
+                    <p class="titulo-trend">Bangkok</p>
+                    <p class="texto-trend">100+ Tours</p>
+                </div>
+                <div class="trend">
+                    <img src="./assets/trending-destinations/image (4).png" alt="">
+                    <p class="titulo-trend">Bali</p>
+                    <p class="texto-trend">600+ Tours</p>
+                </div>
+                <div class="trend">
+                    <img src="./assets/trending-destinations/image (5).png" alt="">
+                    <p class="titulo-trend">Phuket</p>
+                    <p class="texto-trend">200+ Tours</p>
+                </div>
+                <div class="trend">
+                    <img src="./assets/trending-destinations/image (6).png" alt="">
+                    <p class="titulo-trend">Tokyo</p>
+                    <p class="texto-trend">700+ Tours</p>
+                </div>
+                <div class="trend">
+                    <img src="./assets/trending-destinations/image (7).png" alt="">
+                    <p class="titulo-trend">Cappadocia</p>
+                    <p class="texto-trend">900+ Tours</p>
+                </div> -->
+
+    </div>
+</section>

@@ -7,3 +7,4 @@ import { Component } from '@angular/core';
   styleUrl: './section-center.css',
 })
 export class SectionCenter {}
+

@@ -1,0 +1,51 @@
+.destinação{
+    height: 350px;
+    width: 1320px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.trending{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.trendings{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+     margin-top: 15px;
+}
+
+.titulo-trending{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.tituloo-trending{
+    font-size: 15px;
+    font-weight:400;
+}
+
+.titulo-trend{
+    font-size: 15.25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+.texto-trend{
+    font-size: 15px;
+    font-weight:400;
+    display: flex;
+    justify-content: center;
+}
+
+.encontrar{
+    width: 1320px;
+    margin: auto;
+}
